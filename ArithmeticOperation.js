@@ -32,3 +32,7 @@ console.log( "the modulus of num7 and num8 is =", num5 % num6); // modulus
 let num9 = 10;
 num9++;
 console.log(num9); // increment
+// -- decrement
+let num10 = 10;
+num10--;
+console.log(num10); // decrement
