@@ -21,4 +21,4 @@ console.log(num3 * num4); // multiplication
 // division
 let num5 = 20;
 let num6 = 4;
-console.log(num5 / num6); // division
+console.log( "the multiplication of num5 and num 6 is =", num5 / num6); // division
