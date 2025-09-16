@@ -19,6 +19,16 @@ console.log(num3 * num4); // multiplication
 
 
 // division
-let num5 = 20;
+let num5 = 21;
 let num6 = 4;
 console.log( "the multiplication of num5 and num 6 is =", num5 / num6); // division
+console.log( "the modulus of num7 and num8 is =", num5 % num6); // modulus
+// modulus
+// let num7 = 10;
+// let num8 = 3;
+// console.log( "the modulus of num7 and num8 is =", num7 % num8); // modulus
+
+// ++ increment
+let num9 = 10;
+num9++;
+console.log(num9); // increment
