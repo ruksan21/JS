@@ -7,4 +7,12 @@
 // subtraction
 let num = 10;
 let num2 = 20;
-console.log(num2 - num); // subtraction
+ // subtraction
+let result = num2 - num;
+console.log(result);
+
+
+// multiplication
+let num3 = 12;
+let num4 = 2;
+console.log(num3 * num4); // multiplication
