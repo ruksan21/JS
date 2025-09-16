@@ -43,4 +43,17 @@ console.log(num10); // decrement
 //assigment operator
 let assnum = 10;
 assnum += 5; // assnum = assnum + 5
-console.log(assnum);
+console.log("The assigment plus is :" ,assnum);
+
+assnum -= 5;
+console.log("The assigment minus is :" ,assnum);
+
+assnum *= 5;
+console.log("The assigment multiplication is :" ,assnum);
+
+assnum /= 5;
+console.log("The assigment divisionn is :" ,assnum);
+
+assnum %= 5;
+console.log("The assigment modulus is :" ,assnum);
+
