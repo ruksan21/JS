@@ -35,4 +35,12 @@ console.log(num9); // increment
 // -- decrement
 let num10 = 10;
 num10--;
+
 console.log(num10); // decrement
+
+
+
+//assigment operator
+let assnum = 10;
+assnum += 5; // assnum = assnum + 5
+console.log(assnum);
