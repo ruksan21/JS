@@ -1,5 +1,10 @@
+// let num = 10;
+// let num2 = 20;
+// // console.log(num + num2); // addition
+// let result = num + num2; 
+// console.log(result);
+
+// subtraction
 let num = 10;
 let num2 = 20;
-// console.log(num + num2); // addition
-let result = num + num2; 
-console.log(result);
+console.log(num2 - num); // subtraction
