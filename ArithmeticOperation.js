@@ -16,3 +16,9 @@ console.log(result);
 let num3 = 12;
 let num4 = 2;
 console.log(num3 * num4); // multiplication
+
+
+// division
+let num5 = 20;
+let num6 = 4;
+console.log(num5 / num6); // division
