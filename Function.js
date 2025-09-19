@@ -1,4 +1,4 @@
- // demo() parathesis aayeo bhane function call huncha
+// demo() parathesis aayeo bhane function call huncha
 function demo() { 
     console.log("This is function Call"); 
 }
@@ -57,12 +57,17 @@ arrowFun( 6,9)
 
 // Object ko bhitra function 
 
-const laptop ={
-    brand:"Asus",
-    model:"Rdfghjkl234567",
-    Ram: "8GB",
-    SSD: "512GB",
-    laptopFunction:function(){
-        
+const Vehicals ={
+    Brand:{
+        CompanyName:"TaTa",
+        Brandvalue: "Excellent",
+    },
+    modelNumber:"sku258099",
+    EngineCC: "1900CC",
+    Tyre: "17 inch ",
+    vehicalsFunction:function(){
+        console.log(this.Brand , this.CompanyName)
     }
-}
+    }
+    console.log(Vehicals);
+    
