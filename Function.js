@@ -55,3 +55,14 @@ arrowFun( 6,9)
 
 
 
+// Object ko bhitra function 
+
+const laptop ={
+    brand:"Asus",
+    model:"Rdfghjkl234567",
+    Ram: "8GB",
+    SSD: "512GB",
+    laptopFunction:function(){
+        
+    }
+}
