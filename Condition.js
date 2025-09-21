@@ -28,3 +28,4 @@ let marksheet = 30
 marksheet>40?console.log("you are pass "):console.log("you are fail")
 
 
+
