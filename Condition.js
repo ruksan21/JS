@@ -1,12 +1,12 @@
-const Isadmin = false;
-if (Isadmin){
-    console.log("Welcome to the admin login page");
+// const Isadmin = false;
+// if (Isadmin){
+//     console.log("Welcome to the admin login page");
 
 
-}
-else {
-    console.log("You are not admin ")
-}
+// }
+// else {
+//     console.log("You are not admin ")
+// }
 
 
 // marksheet 
@@ -24,7 +24,7 @@ else {
 
 // Ternary Operator
 
-let marksheet = 60
-marksheet>40?"you are pass ":"you are fail"
+let marksheet = 30
+marksheet>40?console.log("you are pass "):console.log("you are fail")
 
 
