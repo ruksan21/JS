@@ -12,6 +12,8 @@ console.log(newh1)
 
 container.append(newh1, newh2);
 container.prepend(newh3)
+ // selective part remove
+ newh1.remove()
 
 demo.textContent="hello world textContent"
 demo.style.color="blue"
