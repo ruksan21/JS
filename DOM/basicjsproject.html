@@ -6,19 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Please change my color</h1>
-    <button id="red-btn">Red</button>
-    <button id="blue-btn">Blue</button>
-    <button id="green-btn">Green</button>
+    <h1 id="hey">Please change my color</h1>
+    <button id="red_btn">Red</button>
+    <button id="blue_btn">Blue</button>
+    <button id="green_btn">Green</button>
     
     <script>
-        let container = document.getElementById("container");
-        let btn = document.getElementById("btn");
+      const hey = document.getElementById("hey");
+      const red_btn = document.getElementById("red_btn");
+      const blue_btn = document.getElementById("blue_btn");
+      const green_btn = document.getElementById("green_btn");
 
-        btn.addEventListener("click", (e) => {
-            container.textContent = "this is come from container"
-        });
-        
+      red_btn.textContent = "red_btn"
+      blue_btn.textContent= "blue_btn"
+      green_btn.textContent= "green_btn"
     </script>
+
 </body>
 </html>
