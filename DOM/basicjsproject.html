@@ -17,9 +17,33 @@
       const blue_btn = document.getElementById("blue_btn");
       const green_btn = document.getElementById("green_btn");
 
-      red_btn.textContent = "red_btn"
-      blue_btn.textContent= "blue_btn"
-      green_btn.textContent= "green_btn"
+      red_btn.textContent = "red"
+      blue_btn.textContent= "blue"
+      green_btn.textContent= "green"
+
+      red_btn.addEventListener ("click" , ()=>
+    {
+        hey.style.color = "red"
+    });
+    
+      blue_btn.addEventListener ("click" , ()=>
+    {
+        hey.style.color = "blue"
+    });
+    
+      green_btn.addEventListener ("click" , ()=>
+    {
+        hey.style.color = "green"
+    });
+
+    
+      red_btn.addEventListener ("click" , ()=>
+    {
+        red_btn.style.background  = "red"
+        red_btn.style.color = "white"
+    });
+
+
     </script>
 
 </body>
