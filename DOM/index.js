@@ -1,8 +1,19 @@
-const { createElement } = 
-
 const demo = document.getElementById("demo")
-const container = document.getElementById("container")
-const newh1 = createElement ("h1")
-newh1.textContent = "This is newh1 element is created"
-console.log(newH1)
-demo.textContent="Hello World Textcontent"
+const container= document.getElementById("container")
+
+const newh1 = document.createElement("h1")
+const newh2 = document.createElement("h2")
+const newh3 = document.createElement("h3")
+
+newh1.textContent="this is new h1 element is created"
+newh2.textContent="this is new h2 element is created"
+newh3.textContent="this is new h3 element is created"
+console.log(newh1)
+
+container.append(newh1, newh2);
+container.prepend(newh3)
+
+demo.textContent="hello world textContent"
+demo.style.color="blue"
+demo.style.backgroundColor="red"
+
