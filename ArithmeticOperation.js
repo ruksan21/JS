@@ -154,3 +154,7 @@ function add(a, b) {
 
 let result = add(5, 3);
 console.log(result); // Output: 8
+const multiply = (a, b) => a * b;
+
+let product = multiply(4, 2);
+console.log(product); // Output: 8
