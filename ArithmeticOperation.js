@@ -138,6 +138,7 @@ function greet() {
 greet(); // Output: Hello!
 function greet(name) {
   console.log("Hello, " + name);
+  console.log("Welcome to the JavaScript world!");
 }
 
 greet("Ruksan"); // Output: Hello, Ruksan
