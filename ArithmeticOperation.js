@@ -111,11 +111,13 @@ let empty = null;          // Null
 let bigNumber = 12345678901234567890n; // BigInt
 let uniqueID = Symbol("user");         // Symbol
 
+
 // Object: Stores user details
 let user = {
   name: "Ruksan",
   age: 25,
-  isStudent: true
+  isStudent: true,
+  hobbies: ["reading", "gaming"]
 };
 console.log(user.name); // Output: "Ruksan"
 
